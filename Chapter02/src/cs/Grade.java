@@ -22,15 +22,15 @@ public class Grade {
 			int Score = Integer.parseInt(tmp);
 			if(Score >= 0 && Score <= 100) {
 				if(Score >= 80)
-					System.out.println("เกรดที่ได้คือ A");
+					System.out.println(StdName + " : เกรดที่ได้คือ A");
 				else if(Score >= 70)
-					System.out.println("เกรดที่ได้คือ B");
+					System.out.println(StdName + " : เกรดที่ได้คือ B");
 				else if(Score >= 60)
-					System.out.println("เกรดที่ได้คือ C");
+					System.out.println(StdName + " : เกรดที่ได้คือ C");
 				else if(Score >= 50)
-					System.out.println("เกรดที่ได้คือ D");
+					System.out.println(StdName + " : เกรดที่ได้คือ D");
 				else
-					System.out.println("เกรดที่ได้คือ F");
+					System.out.println(StdName + " : เกรดที่ได้คือ F");
 			}
 			System.out.println();
 			System.out.print("ต้องการทำงานต่อหรือไม่? [Y/N] : ");
